@@ -87,8 +87,6 @@ const App = () => (
                 Reset
               </button>
             </div>
-            <h2>Values</h2>
-            <pre>{JSON.stringify(values, 0, 2)}</pre>
           </form>
         );
       }}
