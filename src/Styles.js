@@ -2,19 +2,23 @@ import styled, { css } from "styled-components";
 
 const btn = (light, dark) => css`
   /* white-space: nowrap; */
-  /* display: inline-block; */
+  display: inline-block;
   width: 100%;
   height: 55px;
   border-radius: 5px;
+  background: #2364d2;
   padding: 5px 15px;
   font-size: 22px;
+  font-width: 500;
   box-shadow: 3px 10px 20px 0px rgba(35, 100, 210, 0.3);
+  margin-top: 20px;
+  cursor: pointer;
   color: white;
   &:visited {
     color: white;
   }
   background-image: linear-gradient(${light}, ${dark});
-  border: 1px solid ${dark};
+  border: 0px solid ${dark};
   &:hover {
     background-image: linear-gradient(${light}, ${dark});
     &[disabled] {
@@ -34,8 +38,8 @@ const btnDefault = css`
   ${btn("#ffffff", "#d5d5d5")} color: #555;
 `;
 
-const btnPrimary = btn("#4f93ce", "#285f8f");
-const btnDanger = btn("#e27c79", "#c9302c");
+const btnPrimary = btn("#2364d2");
+const btnDanger = btn("#e27c79");
 
 export default styled.div`
   font-family: sans-serif;
@@ -78,14 +82,18 @@ export default styled.div`
 
   form,
   div.form {
+    background: #fff;
+    box-shadow: 3px 13px 30px 0px rgba(21, 34, 67, 0.2);
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
     text-align: left;
-    max-width: 500px;
+    max-width: 560px;
     margin: 10px auto;
-    border: 1px solid #ccc;
-    padding: 20px;
+    padding: 35px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
-    position: relative;
+    border-radius: 10px;
+    padding-top: 180px;
+    /* position: relative; */
+    /* border: 1px solid #ccc;*/
 
     & > div {
       display: flex;
@@ -111,10 +119,11 @@ export default styled.div`
       & > textarea {
         flex: 1;
         padding: 6px 9px;
-        font-size: 1em;
+        font-size: 0.8em;
         margin-left: 15px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
+        border: 0.5px solid rgba(6, 2, 29, 0.25);
+        border-radius: 5px;
+        opactiy: 1;
         &[disabled] {
           background: #eee;
         }

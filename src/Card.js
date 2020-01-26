@@ -168,7 +168,7 @@ const Container = styled.div`
   }
   .rccs__number {
     clear: both;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Consolas, Courier, monospace;
     font-size: 20px;
     left: 10%;
     position: absolute;
@@ -179,7 +179,7 @@ const Container = styled.div`
   }
   .rccs__name {
     bottom: 15%;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Consolas, Courier, monospace;
     font-size: 17px;
     left: 10%;
     line-height: 1;
@@ -205,7 +205,7 @@ const Container = styled.div`
     margin-bottom: 5px;
   }
   .rccs__expiry__value {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Consolas, Courier, monospace;
     font-size: 16px;
   }
   .rccs__number,
@@ -218,17 +218,13 @@ const Container = styled.div`
   }
   .rccs__chip {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAeCAYAAABuUU38AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNrM1sEJwkAQBdCsngXPHsQO9O5FS7AAMVYgdqAd2IGCDWgFnryLFQiCZ8EGnJUNimiyM/tnk4HNEAg/8y6ZmMRVqz9eUJvRaSbvutCZ347bXVJy/ZnvTmdJ862Me+hAbZCTs6GHpyUi1tTSvPnqTpoWZPUa7W7ncT3vK4h4zVejy8QzM3WhVUO8ykI6jOxoGA4ig3BLHcNFSCGqGAkig2yqgpEiMsjSfY9LxYQg7L6r0X6wS29YJiYQYecemY+wHrXD1+bklGhpAhBDeu/JfIVGxaAQ9sb8CI+CQSJ+QmJg0Ii/EE2MBiIXooHRQhRCkBhNhBcEhLkwf05ZCG8ICCOpk0MULmvDSY2M8UawIRExLIQIEgHDRoghihgRIgiigBEjgiFATBACAgFgghEwSAAGgoBCBBgYAg5hYKAIFYgHBo6w9RRgAFfy160QuV8NAAAAAElFTkSuQmCC");
-    background-size: 12px;
-    background-position: 90% center;
     background-repeat: no-repeat;
-    padding-right: 30px;
-    /* background-repeat: no-repeat;
     background-size: contain;
     height: 26.36364px;
     left: 10%;
     position: absolute;
     top: 10%;
-    width: 41.42857px; */
+    width: 41.42857px;
   }
   .rccs__issuer {
     background-position: top right;
@@ -265,7 +261,7 @@ const Container = styled.div`
   }
   .rccs__cvc {
     color: #222;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Consolas, Courier, monospace;
     font-size: 14px;
     left: 67%;
     line-height: 1;
@@ -273,7 +269,7 @@ const Container = styled.div`
     top: 42%;
   }
   .rccs__cvc__front {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Consolas, Courier, monospace;
     font-size: 11.9px;
     opacity: 0;
     position: absolute;
