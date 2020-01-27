@@ -83,15 +83,13 @@ export default styled.div`
   form,
   div.form {
     background: #fff;
-    box-shadow: 3px 13px 30px 0px rgba(21, 34, 67, 0.2);
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    /* box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4); */
     text-align: left;
     max-width: 560px;
-    margin: 10px auto;
+    margin: 50px auto;
     padding: 35px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 13px 30px 0px rgba(21, 34, 67, 0.2);
     border-radius: 10px;
-    /* padding-top: 50px; */
     margin-bottom: -130px;
     /* position: relative; */
     /* border: 1px solid #ccc;*/
