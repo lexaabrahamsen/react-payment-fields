@@ -91,7 +91,8 @@ export default styled.div`
     padding: 35px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    padding-top: 180px;
+    /* padding-top: 50px; */
+    margin-bottom: -130px;
     /* position: relative; */
     /* border: 1px solid #ccc;*/
 
