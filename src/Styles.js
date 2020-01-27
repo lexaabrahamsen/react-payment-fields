@@ -2,17 +2,20 @@ import styled, { css } from "styled-components";
 
 const btn = (light, dark) => css`
   /* white-space: nowrap; */
-  display: inline-block;
+  /* display: inline-block; */
   width: 100%;
-  height: 55px;
+  height: 50px;
   border-radius: 5px;
-  background: #2364d2;
+  background: #2364d8;
   padding: 5px 15px;
-  font-size: 22px;
-  font-width: 500;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+
   box-shadow: 3px 10px 20px 0px rgba(35, 100, 210, 0.3);
   margin-top: 20px;
-  cursor: pointer;
   color: white;
   &:visited {
     color: white;
@@ -97,7 +100,7 @@ export default styled.div`
       flex-flow: row nowrap;
       line-height: 2em;
       position: relative;
-      padding: 8px 50px;
+      padding: 8px 40px;
       border: 1px solid transparent;
       &.active {
         background-color: paleturquoise;
@@ -115,10 +118,10 @@ export default styled.div`
       & > select,
       & > textarea {
         flex: 1;
-        padding: 10px 9px;
+        padding: 14px 9px;
         font-size: 0.8em;
         margin-left: 15px;
-        border: 0.5px solid rgba(6, 2, 29, 0.25);
+        border: 1px solid #ced6e0;
         border-radius: 5px;
         opactiy: 1;
         &[disabled] {
@@ -165,7 +168,7 @@ export default styled.div`
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
-      margin-bottom: 20px;
+      /* margin-bottom: 20px; */
     }
 
     .error {
@@ -204,6 +207,7 @@ export default styled.div`
     }
   }
   button {
+    color: darkblue;
     margin: 0 10px;
     &[type="submit"] {
       ${btnPrimary};

@@ -19,7 +19,7 @@ const onSubmit = async values => {
 const App = () => (
   <Styles>
     <h1>React Credit Card Payment Form</h1>
-    <a href="https://google.com">GitHub</a>
+    <a href="https://github.com/lexaabrahamsen/react-payment-fields">GitHub</a>
     <Form
       onSubmit={onSubmit}
       render={({
@@ -79,14 +79,14 @@ const App = () => (
               <button type="submit" disabled={submitting}>
                 Submit
               </button>
-              <button
-                type="button"
-                onClick={form.reset}
-                disabled={submitting || pristine}
-              >
-                Reset
-              </button>
             </div>
+            <a
+              type="button"
+              onClick={form.reset}
+              disabled={submitting || pristine}
+            >
+              Reset
+            </a>
           </form>
         );
       }}
