@@ -8,6 +8,7 @@ const Container = styled.div`
     -webkit-perspective: 1000px;
     perspective: 1000px;
     width: 290px;
+    padding: 20px 20px;
   }
   .rccs__card {
     height: 182.873px;
