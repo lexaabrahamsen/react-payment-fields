@@ -18,8 +18,6 @@ const onSubmit = async values => {
 
 const App = () => (
   <Styles>
-    <h1>React Credit Card Payment Form</h1>
-    <a href="https://github.com/lexaabrahamsen/react-payment-fields">GitHub</a>
     <Form
       onSubmit={onSubmit}
       render={({
@@ -32,6 +30,8 @@ const App = () => (
       }) => {
         return (
           <form onSubmit={handleSubmit}>
+            <h3>React</h3>
+            <h1>Credit Card Payment Form</h1>
             <Card
               number={values.number || ""}
               name={values.name || ""}
@@ -80,6 +80,7 @@ const App = () => (
                 Submit
               </button>
             </div>
+
             <a
               type="button"
               onClick={form.reset}

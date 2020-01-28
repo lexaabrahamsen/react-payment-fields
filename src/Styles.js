@@ -6,12 +6,12 @@ const btn = (light, dark) => css`
   width: 100%;
   height: 50px;
   border-radius: 5px;
-  background: #2364d8;
-  padding: 5px 15px;
+  /* background: #ffad54; */
+  background: #0b9bab;
+  padding: 5px 5px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
+  letter-spacing: 0.5px;
   font-weight: 500;
 
   box-shadow: 3px 10px 20px 0px rgba(35, 100, 210, 0.3);
@@ -49,12 +49,24 @@ export default styled.div`
 
   h1 {
     text-align: center;
-    color: #222;
+    color: #089bab;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
   }
 
   h2 {
     text-align: center;
     color: #222;
+  }
+
+  h3 {
+    text-align: center;
+    color: #888c96;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Source Sans Pro", sans-serif;
   }
 
   & > div {
@@ -64,7 +76,7 @@ export default styled.div`
   a {
     display: block;
     text-align: center;
-    color: #222;
+    color: #089bab;
     margin-bottom: 10px;
   }
 
@@ -207,7 +219,7 @@ export default styled.div`
     }
   }
   button {
-    color: darkblue;
+    background: darkblue;
     margin: 0 10px;
     &[type="submit"] {
       ${btnPrimary};
